@@ -19,19 +19,29 @@
     bottom: 0;
 }
 
+.linear-whithe::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 .vh-50{
     height: 50vmin;
 }
 
 /* section experience */
-
 .card-img-filter{
     filter: brightness(0.5);
 }
 
 .card{
     transition-duration: .6s;
-    clip-path: polygon (
+    clip-path: polygon(
          50% 0, 
          100% 0, 
          100% 50%, 
@@ -44,7 +54,7 @@
 }
 
 .card-effect:hover .card {
-    clip-path: polygon (
+    clip-path: polygon(
          50% 0, 
          50% 0, 
          100% 50%, 
@@ -69,4 +79,24 @@
     background-image: url(../img/bg-clients.jpeg);
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.comments.linear-whithe::after {
+    top: 0;
+}
+
+.comments__img{
+    --tamano: 80px;
+    width: var(--tamano);
+    height: var(--tamano);
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 7px 7px 7px rgba(0 0 0 / 0.5);
+    border: 3px ridge #fff;
+
+}
+
+.transform-turn{
+    transform: rotate(0.5turn);
 }
