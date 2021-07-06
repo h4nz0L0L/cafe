@@ -100,3 +100,17 @@
 .transform-turn{
     transform: rotate(0.5turn);
 }
+
+/* SECTION INSPIRATION */
+
+.media-object-img{
+    --tamano: 65px;
+    width: var(--tamano);
+    height: var(--tamano);
+    margin-right: 15px;
+}
+
+/* CAROUSEL */
+.carousel-weston-middle{
+    top:35%;
+}
