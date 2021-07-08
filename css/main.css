@@ -114,3 +114,15 @@
 .carousel-weston-middle{
     top:35%;
 }
+
+/* Medias Queries */
+@media screen and (max-width: 375px){
+    .vh-50 {
+        height: 50vmax;
+    }
+}
+@media screen and (max-width: 450px){
+    .vh-50 {
+        height: 55vmax;
+    }
+}
